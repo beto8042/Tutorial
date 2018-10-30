@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 8", "Tutorial 8\Tu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 9", "Tutorial 9\Tutorial 9.csproj", "{A3156769-04AA-467E-A2F6-CBAC6BBB8783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj", "{97977390-8D5F-4422-8BD0-A7CD0FC3D2F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckCards", "DeckCards\DeckCards.csproj", "{F3388947-ADB1-40BE-9CA9-D27D106790EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{A3156769-04AA-467E-A2F6-CBAC6BBB8783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3156769-04AA-467E-A2F6-CBAC6BBB8783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3156769-04AA-467E-A2F6-CBAC6BBB8783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97977390-8D5F-4422-8BD0-A7CD0FC3D2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97977390-8D5F-4422-8BD0-A7CD0FC3D2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97977390-8D5F-4422-8BD0-A7CD0FC3D2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97977390-8D5F-4422-8BD0-A7CD0FC3D2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3388947-ADB1-40BE-9CA9-D27D106790EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3388947-ADB1-40BE-9CA9-D27D106790EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3388947-ADB1-40BE-9CA9-D27D106790EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3388947-ADB1-40BE-9CA9-D27D106790EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
