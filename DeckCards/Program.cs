@@ -12,18 +12,21 @@ namespace DeckCards
         {
 
             Deck deck = new Deck();
-            
-            Console.WriteLine("Estas son las cartas ordenadas:");
-            deck.MuestraDeck(deck.DealCards(56));
-            Console.WriteLine("Indica el número de cartas a repartir:");
-            string dealcards;
-            dealcards = Console.ReadLine();
-            Console.WriteLine("Estas son las cartas que se repartieron:");
-            deck.MuestraDeck(deck.DealCards(5));
-            Console.WriteLine("Estas son las cartas revuletas:");
-            deck.MuestraDeck(deck.ShuffleCards());
 
-        Console.ReadKey();
+            Console.WriteLine("Estas son las cartas ordenadas:");
+            Console.WriteLine(deck.ToString());
+
+            deck.ShuffleCards();
+            Console.WriteLine(deck.ToString());
+            
+            Console.WriteLine("Estas son las cartas que se repartieron:");
+            Deck repartidas = deck.DealCards(5);
+            Console.WriteLine(repartidas.ToString());
+
+
+            Console.WriteLine("Asi quedo el mazo:");
+            Console.WriteLine(deck.ToString());
+            Console.ReadKey();
 
         }
     }
